@@ -1,0 +1,199 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* propriedades do header/nav */
+header{
+    background-color: rgba(0, 0, 0, 0.699);
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 105px;
+    z-index: 2;
+}
+
+#menu-responsivo{
+    display: none;
+}
+
+header  ul{
+    margin-right: 17vw;
+    display: flex;
+}
+
+nav > ul a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    padding: 15px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+nav> ul> li{
+    color: white;
+    list-style: none;
+    padding: 15px;
+}
+
+a:hover{
+    color: #1ed760
+}
+/* fim das propriedades do header */
+
+/* logos do spotify na página */
+.logo{
+    width: 134px;
+}
+
+/* propriedades do main */
+
+main{
+    width: 100vw
+}
+
+h1{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 78px;
+    letter-spacing: -5px;
+    color: white;
+    margin: 0;
+}
+
+main p{
+    font-family: 'Noto Sans', sans-serif;
+    color: white;
+}
+
+button{
+    cursor: pointer;
+    background-color: #1db954;
+    transition: 0.5s;
+    color: white;
+    padding: 15px 11px;
+    width: 328px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-style: none;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+button:hover{
+    background-color: #1ed760;
+}
+
+main > section{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(#F037A5 -60%, #FAE62D 140%);
+    height: 700px;
+}
+
+#background-main{
+    position: absolute;
+    z-index: 0;
+    top: -445px;
+    left: -78px;
+    width: 1645px;
+}
+
+.container{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+/* fim das propriedades do main */
+
+/* propriedades do footer */
+footer{
+    position: relative;
+    z-index: 1;
+    background: black;
+    height: 400px;
+    padding: 65px 0px;
+    width: 100vw;
+}
+
+footer> section{
+    display: flex;
+    padding: 0 105px;
+    justify-content: space-between;
+}
+
+footer> section div{
+    padding: 0 15px;
+}
+
+h3{
+    color: grey;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px
+}
+
+/* propriedades das listas */
+footer ul{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer li{
+    list-style: none;
+    display: flex;
+    padding: 11px 0;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: unset;
+}
+
+
+#redes-sociais-responsivo{
+    display: none
+}
+
+/* div dos ícones das redes sociais */
+#redes-sociais{
+    margin-left: 100px
+}
+
+#ul-redes{
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+}
+
+#ul-redes a{
+    margin: 5px;
+    width: 50px;
+    background-color: #313131;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+i{
+    font-size: 28px;
+}
+
+

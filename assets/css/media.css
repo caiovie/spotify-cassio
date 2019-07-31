@@ -1,0 +1,92 @@
+/* propriedades de @media para o header */
+@media only screen and (max-width: 1065px){
+    
+    header{
+        background-color: black;
+    }
+    
+    header nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #menu{
+        display: none;
+    }
+    
+    #menu-responsivo{
+        display: flex;
+        font-size: 10px;
+        flex-flow: wrap;
+    }
+    
+    #menu-responsivo:hover{
+        display: flex;
+        flex-flow: column;
+        font-size: 20px;
+        margin: 0;
+        padding: 0;
+        
+    }
+    
+}
+
+@media only screen and (max-width: 700px){
+    header{
+        
+    }
+}
+
+
+/* propriedades de @media para o main */
+@media only screen and (max-width: 900px){
+    
+    h1{
+        font-size: 45pt;
+    }
+    .container p{
+        font-size: 10pt;
+    }
+    
+    .container button{
+        width: 150px;
+    }
+    
+}
+
+/* propriedades de @media para o footer */
+@media only screen and (max-width: 1030px){
+    footer{
+        margin: 0;
+        height: 80vh;
+        width: 100vw;
+    }
+    
+    #redes-sociais{
+        display:none
+    }
+    
+    #redes-sociais-responsivo{
+        display: flex;
+        justify-content: center;
+        padding-top: 70px;
+    }
+    
+    #redes-sociais-responsivo ul {
+        display: flex;
+        width: 35vw;
+        justify-content: space-evenly;
+    }
+    
+}
+
+@media only screen and (max-width: 900px){
+    footer > section{
+        flex-flow: wrap
+    }
+    
+    footer > section div{
+        padding: 0 20px
+    }
+}
